@@ -1,13 +1,12 @@
-import React, { useRef, useState } from "react"; // Combine all React imports here
-import styled from "styled-components"; // Single styled-components import
+import React, { useRef } from "react";
+import styled from "styled-components";
 import emailjs from "@emailjs/browser";
-import { Snackbar } from "@mui/material"; // Import Snackbar properly
+import EarthCanvas from "../canvas/Earth";
 
 const Container = styled.div`
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  position: relative;
+  gap: 12px;
   z-index: 1;
   align-items: center;
   @media (max-width: 960px) {
@@ -31,7 +30,7 @@ const Wrapper = styled.div`
 `;
 
 const Title = styled.div`
-  font-size: 42px;
+  font-size: 52px;
   text-align: center;
   font-weight: 600;
   margin-top: 20px;
@@ -58,16 +57,17 @@ const ContactForm = styled.form`
   max-width: 600px;
   display: flex;
   flex-direction: column;
-  background-color: ${({ theme }) => theme.card};
+  background-color: rgba(17, 25, 40, 0.83);
+  border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 32px;
-  border-radius: 16px;
-  box-shadow: rgba(23, 92, 230, 0.15) 0px 4px 24px;
+  border-radius: 12px;
+  box-shadow: rgba(23, 92, 230, 0.1) 0px 4px 24px;
   margin-top: 28px;
   gap: 12px;
 `;
 
 const ContactTitle = styled.div`
-  font-size: 24px;
+  font-size: 28px;
   margin-bottom: 6px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
@@ -76,7 +76,7 @@ const ContactTitle = styled.div`
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid ${({ theme }) => theme.text_secondary + 50};
   outline: none;
   font-size: 18px;
   color: ${({ theme }) => theme.text_primary};
@@ -90,7 +90,7 @@ const ContactInput = styled.input`
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary};
+  border: 1px solid ${({ theme }) => theme.text_secondary + 50};
   outline: none;
   font-size: 18px;
   color: ${({ theme }) => theme.text_primary};
@@ -105,7 +105,22 @@ const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
   text-align: center;
-  background: linear-gradient(225deg, hsla(271, 100%, 50%, 1) 0%, hsla(294, 100%, 50%, 1) 100%);
+  background: hsla(271, 100%, 50%, 1);
+  background: linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    225deg,
+    hsla(271, 100%, 50%, 1) 0%,
+    hsla(294, 100%, 50%, 1) 100%
+  );
   padding: 13px 16px;
   margin-top: 2px;
   border-radius: 12px;
@@ -116,25 +131,25 @@ const ContactButton = styled.input`
 `;
 
 const Contact = () => {
-  const [open, setOpen] = useState(false); // Use useState from React
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_8lny3od",
-        "template_doxjv16",
-        form.current,
-        "HUJZHQoHeXfbDz8bm"
+        "service_8lny3od", // Your EmailJS service ID
+        "template_doxjv16", // Your EmailJS template ID
+        form.current, // Form reference
+        "HUJZHQoHeXfbDz8bm" // Your EmailJS public key
       )
       .then(
-        () => {
-          setOpen(true);
-          form.current.reset();
+        (result) => {
+          alert("Message Sent Successfully!"); // Notify user of success
+          form.current.reset(); // Reset the form
         },
         (error) => {
-          console.error(error.text);
+          console.error("Error:", error); // Log error details
+          alert("Failed to send message. Please try again."); // Notify user of failure
         }
       );
   };
@@ -142,8 +157,11 @@ const Contact = () => {
   return (
     <Container>
       <Wrapper>
+        <EarthCanvas />
         <Title>Contact</Title>
-        <Desc>Feel free to reach out to me for any questions or opportunities!</Desc>
+        <Desc>
+          Feel free to reach out to me for any questions or opportunities!
+        </Desc>
         <ContactForm ref={form} onSubmit={handleSubmit}>
           <ContactTitle>Email Me 🚀</ContactTitle>
           <ContactInput placeholder="Your Email" name="from_email" required />
@@ -151,18 +169,12 @@ const Contact = () => {
           <ContactInput placeholder="Subject" name="subject" required />
           <ContactInputMessage
             placeholder="Message"
-            rows="4"
             name="message"
+            rows={4}
             required
           />
           <ContactButton type="submit" value="Send" />
         </ContactForm>
-        <Snackbar
-          open={open}
-          autoHideDuration={6000}
-          onClose={() => setOpen(false)}
-          message="Email sent successfully!"
-        />
       </Wrapper>
     </Container>
   );
