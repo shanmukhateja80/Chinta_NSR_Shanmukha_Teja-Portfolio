@@ -118,21 +118,21 @@ const Projects = ({ openModal, setOpenModal }) => {
             active={toggle === "Robotics and Automation"}
             onClick={() => setToggle("Robotics and Automation")}
           >
-            WEB APP"S
+            Robotics and Automation
           </ToggleButton>
           <Divider />
           <ToggleButton
             active={toggle === "IoT and Software Development"}
             onClick={() => setToggle("IoT and Software Development")}
           >
-            ANDROID APP'S
+            IoT and Software Development
           </ToggleButton>
           <Divider />
           <ToggleButton
             active={toggle === "Mechanical Design and Others"}
             onClick={() => setToggle("Mechanical Design and Others")}
           >
-            MACHINE LEARNING
+            Mechanical Design and Others
           </ToggleButton>
         </ToggleButtonGroup>
         <CardContainer>
