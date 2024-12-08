@@ -1,7 +1,7 @@
 {
-  "name": "shanmukha-teja-portfolio",
+  "name": "3d-portfolio-website",
   "version": "0.1.1",
-  "homepage": "https://github.com/shanmukhateja80",
+  "homepage": "https://rishavchanda.github.io",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.1.0",
