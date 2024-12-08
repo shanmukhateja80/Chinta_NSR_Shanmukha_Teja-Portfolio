@@ -107,7 +107,3 @@ const EducationCard = ({ education }) => {
 };
 
 export default EducationCard;
-
-};
-
-export default EducationCard;
