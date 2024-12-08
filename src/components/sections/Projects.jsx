@@ -104,8 +104,7 @@ const Projects = ({ openModal, setOpenModal }) => {
             marginBottom: "40px",
           }}
         >
-          I have worked on a wide range of projects. From web apps to android
-          apps. Here are some of my projects.
+          I have worked on diverse projects in mechanical design, electronics, and software development. Here are some highlights of my work.
         </Desc>
         <ToggleButtonGroup>
           <ToggleButton
@@ -116,22 +115,22 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "web app"}
-            onClick={() => setToggle("web app")}
+            active={toggle === "Robotics and Automation"}
+            onClick={() => setToggle("Robotics and Automation")}
           >
             WEB APP"S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "android app"}
-            onClick={() => setToggle("android app")}
+            active={toggle === "IoT and Software Development"}
+            onClick={() => setToggle("IoT and Software Development")}
           >
             ANDROID APP'S
           </ToggleButton>
           <Divider />
           <ToggleButton
-            active={toggle === "machine learning"}
-            onClick={() => setToggle("machine learning")}
+            active={toggle === "Mechanical Design and Others"}
+            onClick={() => setToggle("Mechanical Design and Others")}
           >
             MACHINE LEARNING
           </ToggleButton>
