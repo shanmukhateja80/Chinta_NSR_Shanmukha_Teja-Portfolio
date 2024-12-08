@@ -110,7 +110,7 @@ const Footer = () => {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Rishav Chanda. All rights reserved.</Copyright>
+        <Copyright>&copy; 2024 Chinta NSR Shanmukha Teja. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
