@@ -11,7 +11,7 @@ export const Bio = {
     "Motivated final-year Robotics Engineering student with hands-on experience in designing and optimizing robotic systems. Skilled in hardware-software integration, problem-solving, and innovation, with a strong passion for advancing robotics technology. Eager to contribute to impactful projects in robotics and automation.",
   github: "https://github.com/shanmukhateja80",
   resume:
-    "https://drive.google.com/file/d/17yfE39JwGrKbW6xEYubBGkpSkEFOqzdz/view?usp=sharing",
+    "https://drive.google.com/file/d/1vvsx_Ae915q-8_FvtM6wJy3DjCs1mMOD/view?usp=sharing",
   linkedin: "https://in.linkedin.com/in/chinta-nsr-shanmukha-teja-aab935251",
   twitter: "https://x.com/TejaNsr",
   insta: "https://www.instagram.com/shanmukha_teja8/",
