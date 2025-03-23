@@ -28,16 +28,6 @@ export const skills = [
           "https://yt3.googleusercontent.com/ytc/AIdro_lXgzIQ4rZn_CYoxDsBFfKTq_2R7JZIhghbgckRjoYoUA=s900-c-k-c0x00ffffff-no-rj",
       },
       {
-        name: "ROS",
-        image:
-          "https://i.pinimg.com/originals/97/bf/b0/97bfb00a10c0c8a5dc14afebd69b33cb.jpg",
-      },
-      {
-        name: "GAZABO",
-        image:
-          "https://upload.wikimedia.org/wikipedia/en/thumb/5/5e/Gazebo_logo_without_text.svg/480px-Gazebo_logo_without_text.svg.png",
-      },
-      {
         name: "Pluto Blocks",
         image: "https://play-lh.googleusercontent.com/d565xlgKLj-67E1jCEUBVDmE_N1HxwaIPdYW3UtkrXWTqQhTjzEM_0zeg4S222nhL5c=w600-h300-pc0xffffff-pd",
       },
@@ -52,14 +42,9 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/800px-Matlab_Logo.png",
       },
       {
-        name: "Tensor flow",
+        name: "RoboDK",
         image:
-          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6iQyYphUHhLEUchqyhIwsRMe0G9aqVFjUaA&s",
-      },
-      {
-        name: "Open CV",
-        image:
-          "https://w7.pngwing.com/pngs/978/465/png-transparent-learning-opencv-computer-vision-machine-learning-c-robotics-text-computer-logo-thumbnail.png",
+          "https://www.google.com/imgres?q=robodk%20icon&imgurl=https%3A%2F%2Frobodk.com%2Fimg%2Frobodktoken.png&imgrefurl=https%3A%2F%2Frobodk.com%2Fhelp&docid=7gQsLXhatGIPEM&tbnid=NSNVH8q50n15-M&vet=12ahUKEwiKysqwu5-MAxUcxjgGHTfHOlYQM3oECBUQAA..i&w=256&h=256&hcb=2&ved=2ahUKEwiKysqwu5-MAxUcxjgGHTfHOlYQM3oECBUQAA",
       },
       
     ],
@@ -99,7 +84,7 @@ export const skills = [
       {
         name: "Python",
         image:
-          "https://image.similarpng.com/very-thumbnail/2021/12/Python-programming-logo-on-transparent-background-PNG.png",
+          "https://www.google.com/imgres?q=python%20icon&imgurl=https%3A%2F%2Fcdn3.iconfinder.com%2Fdata%2Ficons%2Flogos-and-brands-adobe%2F512%2F267_Python-512.png&imgrefurl=https%3A%2F%2Fwww.iconfinder.com%2Ficons%2F4518857%2Fpython_icon&docid=d3dazghIaLJMQM&tbnid=qZbXPMlh9LJCeM&vet=12ahUKEwj339DPu5-MAxW9xzgGHVDUKQIQM3oECBUQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwj339DPu5-MAxW9xzgGHVDUKQIQM3oECBUQAA",
       },
       {
         name: "C language",
