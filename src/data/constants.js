@@ -151,6 +151,7 @@ export const experiences = [
       "RoboDK",
       "ANSYS",
       "Project Leadership"
+      "Project Management"
     ],
     doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/refs/heads/main/00S_page-0001%20(1).jpg",
   },
