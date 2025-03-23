@@ -136,27 +136,42 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
+   {
     id: 0,
+    img: "https://res.cloudinary.com/dbyioi2qq/q_auto/v1714727012/static/whatsapp-image-2024-05-03-at-133730_0871b728jpg_1714727013_60109.jpg",
+    role: "Robotic Engineer",
+    company: "Hanumax",
+    date: "sep 2024 - mar 2024",
+    desc: "Led the team to design and development of a 6-DOF collaborative robot (cobot) with a 4 kg payload. Gained hands-on experience in 3D modeling with CATIA V5, kinematic validation with RoboAnalyzer, structural analysis with ANSYS, and motion simulation with RoboDK. Achieved a 25% reduction in manufacturing costs with material selection. ",
+    skills: [
+     "Collaborative Robot Design",
+      "Kinematics & Motion Planning",
+      "CATIA V5",
+      "RoboAnalyzer",
+      "RoboDK",
+      "ANSYS",
+      "Project Leadership"
+    ],
+    doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/refs/heads/main/00S_page-0001%20(1).jpg",
+  },
+  {
+    id: 1,
     img: "https://res.cloudinary.com/dbyioi2qq/q_auto/v1710992110/static/untitledpng_1710992107_11634.png",
     role: "Robotic Engineer",
     company: "Dreambot",
-    date: "Apr 2024 - Present",
-    desc: "I gained hands-on experience in developing a fully automated kitchen robot during my internship at Dream Bot, focusing on robotics analysis, design in CATIA V5, and kinematics implementation with RoboAnalyzer. I led a team to successfully integrate hardware and software for optimal robot performance. Currently, I am designing and developing a collaborative robot (cobot), emphasizing precision, safety, and human-robot interaction.",
+    date: "Apr 2024 - jul 2024",
+    desc: "I gained hands-on experience in designing a fully automated kitchen robot frame during my internship at Dream Bot, focusing on robotics analysis, design in CATIA V5, and kinematics implementation with RoboAnalyzer , Static structural analysis in ANSYS ",
     skills: [
       "Robot Analysis",
       "RoboAnalyzer",
       "CATIA V5",
-      "Hardware-Software Integration",
       "Ansys",
-      "Leadership",
-      "Project Management",
-      "COBOT",
+      "Project Management"
     ],
     doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/refs/heads/main/WhatsApp%20Image%202024-06-27%20at%2011.46.35_b13835ff.jpg",
   },
   {
-    id: 1,
+    id: 2,
     img: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkPBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84SzQ5OisBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc2NTc3Nzc3NDU3Mys3Nzc3Nzc3Nzc3OC4yNzc3Nzc3Ky83NzcuN//AABEIACAAIAMBEQACEQEDEQH/xAAYAAEBAQEBAAAAAAAAAAAAAAAEBQYCA//EACoQAAIBAwIFAQkAAAAAAAAAAAECAwAEEQUhBhMxUXGBEhQyNEFhkaHw/8QAGQEAAwEBAQAAAAAAAAAAAAAAAwQGAgUB/8QAKhEAAQMDAwMCBwEAAAAAAAAAAQACAwQRURIhcQUx8GGRFBVDU3Kh0UL/2gAMAwEAAhEDEQA/AJxkOetWqg7JUdjqEsgWKyupHKlgqRMxI232HTcfmlo62mkvokabbHcbHBwmHUVQ0gOYd/QrqfTtTtome40+8iiX4nkgdVHkkURs8TjZrgTyFl1NM0Xc0gcIfMPeioNkQyb1lG0q7o95Hf23ul2/ssflpfqp7f3jtUn1ell6fUfNaUX+43Izzn3zej6bOyrg+AnP4HBx5xhTpLm906S6hkdl5i8uVCSQwyCD+gQaoqeaCsiZPEbg7g+exC48rJ6V74X9+xQuZTSU0ohk3NZumNK03DenSRxLcvbSTztkWdsoy0jYJzj0J8AntUn1msfWz/LKd1h9R2Bjk/wZtQdNpG00fxkouf8AAyc+c4Xk/DvEF5dySX9jcQIcyTXEyYWNQMk+gHSu7BJS00LYYew2A8/ZXNlp6ieUySjvuSs7zKfukdKIZNzXiPpTU1rU45FaLUbuN1UorRzspCnGQMHpsNvsKVjo6aO+iNovudhvznujuqJ3W1PO3qu5eIdZmidJtX1CSN1Kuj3TsrA7EEE7iiiCIG4aPYLJllIsXFT+ZRULSv/Z",
     role: "ROBO AI",
     company: "My Equation",
@@ -177,7 +192,7 @@ export const experiences = [
     doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/0bf058237d86293235a70afd28804c1730158237/Chinta%20Nsr%20Shanmukha%20Teja_RoboAI_COA%20(1)_page-0001.jpg",
   },
   {
-    id: 2,
+    id: 3,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAe1BMVEVHcEzlPTvtIyDtJiPtLCntJiPtJiPtJyTsJSLsJSLtJSLsJSIAAAAAAADtJSIAAADtHhruODX4t7b97e3ziIfsFRDydnT////73dzwXVvvTUv++fn5w8PtODX1n57rAgD709LuSEb61NT////+/Pz+/v7+///////4uLf7VRWeAAAAKXRSTlMACxotSIfZ///svGAaeKNN///////////////8/3b///63XCjcpHhqjDV87acAAAFnSURBVHgBZZIFksMwDAAVtFyUKXhl/P8LT4qK0y3EM2vhBN5kWV4UeZbBD3lZ1QYZO5sXAIvFR1A5Q2MmyX91Dsvly+aVZcOfBytYr5+yWBlGlR5KyJ5x4pAcqSNDWD9dVk23fYhJXGqCN1iBUiKTYtt2PSFS37VtTLbUwBk7GlrGO0Tn5eRolgNTIGO6lhkbwtgKf2Q2wFQiXWiFzuG2FcaY6oKlZOUu2ontbtjrtYFWGYDlHrbD7k/tkOLYCp5wDoDEPcQ0jBqxM74VQpNsBjiV6VN8JpZZmD0nBtsEOSaniUO/22qSrbFw0A4a3oxO4czz2gyO7UMajtAp+se1Ek5aAZF0ihAp6bDnDOAypSC2U2Jv+NSJvALAibNFQib9yZKm7UvgCZgbN4ZKCH1CYduORxCy+0DqyKmT+rf3q6DSID0OdgNPsk2NX8zm8EGxsvjE1FUBX2TFfFUbMat5kcEPmQJv/gGGViaRDRRT/gAAAABJRU5ErkJggg==",
     role: "Embedded System Devoloper ",
     company: "Microchip",
@@ -193,7 +208,7 @@ export const experiences = [
     doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/feee06f2d1f4d5855298a425cd180296179a1b93/embedded%20system_page-0001.jpg",
   },
   {
-    id: 3,
+    id: 4,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAgCAMAAADQQiM0AAAAY1BMVEVHcExaxtBaxtBax9FaxtBax9FaxtBaxtBaxtBaxtBaxtBaxtBaxtBax9Fg0tpaxtAtUXAlI2ImImElImImJGMmIWEmI2IlIWEmImIkHl4mImElIGAmImFdz9cmImEmImEmImF5lEWPAAAAIXRSTlMAd1Ii/65mLO+ahdXERhg7C7T/iJ0W2l8lUmu+Qr18qTS4CYnIAAABEklEQVR4AXXOVYKEMBAE0AIKt0ycEOT+l1wfA/b9tTeekhTXMhLXcrJAeporSlRkXbLBQcuiI5OeQzYeK0yrFkDNGi/qoSFToCgKvldyIu+AjE1HpuOAp/Lv77JgnlW4a9quRNsAQgB9iaeeJHpmuEmRs2zZpviTsMU3pUUvOpI9HsYSBto6AMVboSXhrNd+skHgVdMmGGYZrZwWJnhXd5BSWiQkTpSUDhh6gSMvpccl8W/FSRlwZmb5za7nAS1/bTj7qt0ELm0aVzwQAtaAE7vHFV6ZGw6muGHVZsWMg9nNu9/2bdIXZ/zkEf1Lat+n6BG8h/O7icaL3XgfBcS6OhcwuRUqhqCmEIJbo7pYKgx+fAJFJxHUC+rwhQAAAABJRU5ErkJggg==",
     role: "PYTHON PROGRAMMING",
     company: "Academy of skill development",
@@ -210,7 +225,7 @@ export const experiences = [
     
   },
   {
-    id: 4,
+    id: 5,
     img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAA7VBMVEX////9z6H/8tv+48j4kSD0fQD/wFX/1ZH/+fD/8uP5pVT1gQD1hQD/w2T/v13/47X//fj7uXz1fgD1hQb1hQX/wWL/vlj/xWT/6sf/zHT4lCv/2Zn/5NL8iQXmfQilWwvVoFa4Zg5nPBIoGxMfFxOCWjqJYDywgUjiqVjHbg14RRIzIBKMYj26iUvqsFvRcwuESxE3IxOcb0CQURFCKRPMomn1vGZcPyZ1UzVlRy3/8tP/6L5OLhC+cyndjDvowork6ey6n4Xkgxbks2m8sqPP0tK/kmi+rZXEwr3JikzHqX/Avbje4+W4noTxvWuvCbvlAAABPElEQVR4AXTRBRKDMBBAUeoWNKTu7u7uev/7lMX147xhgISy5PNTXgWCoXAk6kqxeCiBaCbMOonjhQQWEU1IMpW2mQ8JIlZQ4kzM/LJsCGGsI2HCuajpZUAaQtqr8xqZEV7NyYi1UCFF9MJRE4qFQrFUJinajiC4Uq3VG81WG9yEqIA73V691uv1m41GfzBMpXQUR+MJSA9QqtGYDoYGzuZ12eaAkk4XSw3hjR14sraSsb9MsTnG9EHF2mS+WjWaMqaYNGvBdWO9WTUaDUDCbHdJM9Zr++74MBi0phJm/FtGQ6iDUaFQSEmRNiBtRmRMGewY/VfcBl7B6DGBXJA5UdD5cgW2IHO7nymlxxMnRBMyy9eDMnp/EkgEBCJfE0Hnu/RqGZnF70zZ+8/HF2g1L8wyBIBbzeLn7oMkAABAHzkmP3rnWgAAAABJRU5ErkJggg==",
     role: "Advance certification on Emerging Technologies ",
     company: "Indo-Euro Synchronization",
