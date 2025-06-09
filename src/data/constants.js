@@ -150,8 +150,8 @@ export const experiences = [
       "RoboAnalyzer",
       "RoboDK",
       "ANSYS",
-      "Project Leadership"
-      "Project Management"
+      "Project Leadership",
+      "Project Management",
     ],
     doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/refs/heads/main/00S_page-0001%20(1).jpg",
   },
@@ -167,7 +167,7 @@ export const experiences = [
       "RoboAnalyzer",
       "CATIA V5",
       "Ansys",
-      "Project Management"
+      "Project Management",
     ],
     doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/refs/heads/main/WhatsApp%20Image%202024-06-27%20at%2011.46.35_b13835ff.jpg",
   },
