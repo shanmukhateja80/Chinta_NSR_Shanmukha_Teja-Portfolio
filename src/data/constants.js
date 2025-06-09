@@ -105,6 +105,7 @@ export const skills = [
         name: "LINUX",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuqLyXlPLT3t_ltOzksHgCS9-RCXqc-ENGdA&s",
+      },
     ],
   },
   {
