@@ -152,7 +152,7 @@ export const experiences = [
   role: "Robotics Engineer, Designer & ROS Developer",
   company: "HANUMAX",
   date: "Apr 2025 - Present",
-  desc: "Leading the design, prototyping, and development of advanced robotic and medical devices. Main project is an articulating laparoscopic needle holder and grasper with detachable jaws, 360° rotation, and 90° bending for cost-effective, easy-to-sanitize surgical tools. Successfully developed the 10mm version and currently prototyping the 6mm version. Also contributing to collaborative robot systems and an automated dishwasher, implementing ROS 2 for process control, sensors, and motor integration, with plans for future AI integration. Focused on improving stability, reducing costs, and optimizing design for manufacturing efficiency.",
+  desc: "Leading the design, prototyping, and development of advanced robotic and medical devices at HANUMAX. Key project: an articulating laparoscopic needle holder and grasper with detachable jaws, 360° rotation, and 90° bending, designed for cost-efficiency and easy sanitization. Successfully developed the 10mm version and currently prototyping the 6mm version. Additionally contributing to collaborative robot systems and an automated dishwasher, implementing ROS 2 for process control, sensors, and motor integration, with future AI integration planned. Focused on improving stability, reducing costs, and optimizing design for manufacturing efficiency.",
   skills: [
     "CATIA V5",
     "ANSYS",
@@ -494,6 +494,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
