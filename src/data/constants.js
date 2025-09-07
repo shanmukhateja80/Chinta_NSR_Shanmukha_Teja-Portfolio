@@ -328,7 +328,7 @@ export const projects = [
   },
   {
     id: 10,
-    title: "Design and Development of Co-bot (Ongoing)",
+    title: "Design and Development of Co-bot",
     date: "Sep 2024 - Present",
     description:
       "Working on designing and developing a collaborative robot (cobot) with a 600 mm working span, 700 mm height, and 4 kg payload capacity. The project involves selecting high-torque BLDC motors, designing a suitable gear system, ensuring accuracy and precision, and focusing on safe human-robot interaction. Tasks include CAD modeling, kinematic analysis, and component integration, aiming to create a reliable and efficient cobot for industrial applications.",
@@ -457,6 +457,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
