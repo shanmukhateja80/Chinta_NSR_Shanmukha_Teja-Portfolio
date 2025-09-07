@@ -1,10 +1,10 @@
 export const Bio = {
   name: "Chinta NSR Shanmukha Teja",
   roles: [
-    "Robotics Engineer",
-    "Automation Engineer",
-    "AI & ML Enthusiast",
-    "Mechatronics Developer",
+    "Robotics & Automation Engineer",
+    "ROS2 & Simulation Developer",
+    "Mechatronics Innovator",
+    "Robotic Systems Designer",
   ],
   description:
 
@@ -437,6 +437,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
