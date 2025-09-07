@@ -8,7 +8,7 @@ export const Bio = {
   ],
   description:
 
-    "Motivated final-year Robotics Engineering student with hands-on experience in designing and optimizing robotic systems. Skilled in hardware-software integration, problem-solving, and innovation, with a strong passion for advancing robotics technology. Eager to contribute to impactful projects in robotics and automation.",
+    "Robotics Engineer with expertise in ROS2, automation, and robotic system design. Proven ability to deliver innovative, reliable, and scalable solutions through hardware–software integration, control systems, and advanced simulation. Driven by a passion for advancing robotics technology and contributing to impactful automation projects.",
   github: "https://github.com/shanmukhateja80",
   resume:
     "https://drive.google.com/file/d/1vvsx_Ae915q-8_FvtM6wJy3DjCs1mMOD/view?usp=sharing",
@@ -437,6 +437,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
