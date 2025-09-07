@@ -443,7 +443,25 @@ export const projects = [
   category: "Robotics and Automation",
   github: "https://github.com/shanmukhateja80/catch-the-turtle-ros2",
 
-}
+},
+{
+  id: 12,
+  title: "Advanced Articulating Laparoscopic Needle Holder & Grasper",
+  date: "Apr 2025 - Present",
+  description:
+    "Leading the design and prototyping of a cost-effective, detachable-jaw laparoscopic tool. The device features an articulating front jaw capable of 360° rotation and 90° bending on both sides, with easy-to-sanitize detachable components. Currently, the 10mm version is successful, and efforts are ongoing to develop a 6mm version. Future plans include a motorized version for enhanced surgical precision.",
+  image: "https://raw.githubusercontent.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper/refs/heads/main/WhatsApp%20Image%202025-05-19%20at%2017.04.02_47e9b4de.jpg",
+  tags: [
+    "Mechanical Design",
+    "CAD Modeling (CATIA V5)",
+    "Finite Element Analysis (ANSYS)",
+    "Prototyping & 3D Printing",
+    "Team Collaboration",
+    "Design Optimization",
+    "Medical Device Innovation"
+  ],
+  category: "Mechanical Design and Medical Robotics",
+  github: "https://github.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper",  
 
   
 ];
@@ -455,6 +473,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
