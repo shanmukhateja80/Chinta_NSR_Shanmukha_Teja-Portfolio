@@ -172,7 +172,7 @@ export const experiences = [
     img: "https://res.cloudinary.com/dbyioi2qq/q_auto/v1714727012/static/whatsapp-image-2024-05-03-at-133730_0871b728jpg_1714727013_60109.jpg",
     role: "Robotic Engineer",
     company: "Hanumax",
-    date: "sep 2024 - mar 2024",
+    date: "sep 2024 - mar 2025",
     desc: "Led the team to design and development of a 6-DOF collaborative robot (cobot) with a 4 kg payload. Gained hands-on experience in 3D modeling with CATIA V5, kinematic validation with RoboAnalyzer, structural analysis with ANSYS, and motion simulation with RoboDK. Achieved a 25% reduction in manufacturing costs with material selection. ",
     skills: [
      "Collaborative Robot Design",
@@ -494,6 +494,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
