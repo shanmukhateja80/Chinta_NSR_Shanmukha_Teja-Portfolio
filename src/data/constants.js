@@ -146,6 +146,27 @@ export const skills = [
 ];
 
 export const experiences = [
+  {
+  id: 1,
+  img: "https://res.cloudinary.com/dbyioi2qq/q_auto/v1714727012/static/whatsapp-image-2024-05-03-at-133730_0871b728jpg_1714727013_60109.jpg", // replace with actual image URL
+  role: "Robotics Engineer, Designer & ROS Developer",
+  company: "HANUMAX",
+  date: "Apr 2025 - Present",
+  desc: "Leading the design, prototyping, and development of advanced robotic and medical devices. Main project is an articulating laparoscopic needle holder and grasper with detachable jaws, 360° rotation, and 90° bending for cost-effective, easy-to-sanitize surgical tools. Successfully developed the 10mm version and currently prototyping the 6mm version. Also contributing to collaborative robot systems and an automated dishwasher, implementing ROS 2 for process control, sensors, and motor integration, with plans for future AI integration. Focused on improving stability, reducing costs, and optimizing design for manufacturing efficiency.",
+  skills: [
+    "CATIA V5",
+    "ANSYS",
+    "ROS 2",
+    "3D Printing (Ultimaker)",
+    "Mechanical Prototyping",
+    "Sensor & Motor Integration",
+    "Design Optimization",
+    "Team Collaboration"
+  ],
+  doc: "" // add certificate or link later
+   },
+
+  
    {
     id: 0,
     img: "https://res.cloudinary.com/dbyioi2qq/q_auto/v1714727012/static/whatsapp-image-2024-05-03-at-133730_0871b728jpg_1714727013_60109.jpg",
@@ -165,6 +186,7 @@ export const experiences = [
     ],
     doc: "https://raw.githubusercontent.com/shanmukhateja80/Certificate/refs/heads/main/00S_page-0001%20(1).jpg",
   },
+
   {
     id: 1,
     img: "https://res.cloudinary.com/dbyioi2qq/q_auto/v1710992110/static/untitledpng_1710992107_11634.png",
@@ -472,6 +494,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
