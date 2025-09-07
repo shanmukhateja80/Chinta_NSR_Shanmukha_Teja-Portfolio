@@ -439,8 +439,6 @@ export const projects = [
     "ROS 2",
     "Python Programming",
     "Autonomous Robotics",
-    "Node Communication",
-    "Custom Services",
     "Simulation and Control"],
   category: "Robotics and Automation",
   github: "https://github.com/shanmukhateja80/catch-the-turtle-ros2",
@@ -457,6 +455,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
