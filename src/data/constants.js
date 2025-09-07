@@ -458,11 +458,10 @@ export const projects = [
     "Prototyping & 3D Printing",
     "Team Collaboration",
     "Design Optimization",
-    "Medical Device Innovation"
-  ],
+    "Medical Device Innovation"],
   category: "Mechanical Design and Others",
   github: "https://github.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper",  
-
+},
   
 ];
 
@@ -473,6 +472,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
