@@ -11,7 +11,7 @@ export const Bio = {
     "Robotics Engineer with expertise in ROS2, automation, and robotic system design. Proven ability to deliver innovative, reliable, and scalable solutions through hardware–software integration, control systems, and advanced simulation. Driven by a passion for advancing robotics technology and contributing to impactful automation projects.",
   github: "https://github.com/shanmukhateja80",
   resume:
-    "https://drive.google.com/file/d/1vvsx_Ae915q-8_FvtM6wJy3DjCs1mMOD/view?usp=sharing",
+    "https://drive.google.com/file/d/1mqqV-lM8h8SAeRqWz5luyeB5M30kxLLn/view?usp=sharing",
   linkedin: "https://in.linkedin.com/in/chinta-nsr-shanmukha-teja-aab935251",
   twitter: "https://x.com/TejaNsr",
   insta: "https://www.instagram.com/shanmukha_teja8/",
@@ -494,6 +494,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
