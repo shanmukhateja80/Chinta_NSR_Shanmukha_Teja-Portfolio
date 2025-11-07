@@ -54,9 +54,9 @@ export const skills = [
       {
         name: "URDF",
         image:
-          "https://www.google.com/imgres?q=xml%20logo&imgurl=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F9496%2F9496555.png&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fxml_9496555&docid=3AimcfYnxQ5IUM&tbnid=eN87Iw8VprPrWM&vet=12ahUKEwja3umLpOCQAxV9cGwGHQHKJXQQM3oECBoQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwja3umLpOCQAxV9cGwGHQHKJXQQM3oECBoQAA",
+          "https://www.nicepng.com/png/detail/198-1984311_xml-tutorial-learn-to-use-for-the-raspberry.png",
       },
-            {
+      {
         name: "RViz",
         image:
           "https://raw.githubusercontent.com/ros-visualization/rviz/noetic-devel/images/splash.png",
@@ -504,6 +504,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
