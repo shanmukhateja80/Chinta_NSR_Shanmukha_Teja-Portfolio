@@ -28,8 +28,8 @@ export const skills = [
           "https://yt3.googleusercontent.com/ytc/AIdro_lXgzIQ4rZn_CYoxDsBFfKTq_2R7JZIhghbgckRjoYoUA=s900-c-k-c0x00ffffff-no-rj",
       },
       {
-        name: "Pluto Blocks",
-        image: "https://play-lh.googleusercontent.com/d565xlgKLj-67E1jCEUBVDmE_N1HxwaIPdYW3UtkrXWTqQhTjzEM_0zeg4S222nhL5c=w600-h300-pc0xffffff-pd",
+        name: "Gazebo",
+        image: "https://www.google.com/imgres?q=gazebo%20logo&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F5e%2FGazebo_logo_without_text.svg&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGazebo_logo_without_text.svg&docid=MU7l-LvmVTU7ZM&tbnid=SsKwUcpot3aGjM&vet=12ahUKEwjw38jFo-CQAxVnXWwGHZ6HNH0QM3oECBUQAA..i&w=300&h=300&hcb=2&ved=2ahUKEwjw38jFo-CQAxVnXWwGHZ6HNH0QM3oECBUQAA",
       },
       {
         name: "Arduino",
@@ -50,7 +50,17 @@ export const skills = [
         name: "ROS",
         image:
           "data:image/png;base64,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",
-      },      
+      },
+      {
+        name: "URDF",
+        image:
+          "https://www.google.com/imgres?q=xml%20logo&imgurl=https%3A%2F%2Fcdn-icons-png.flaticon.com%2F512%2F9496%2F9496555.png&imgrefurl=https%3A%2F%2Fwww.flaticon.com%2Ffree-icon%2Fxml_9496555&docid=3AimcfYnxQ5IUM&tbnid=eN87Iw8VprPrWM&vet=12ahUKEwja3umLpOCQAxV9cGwGHQHKJXQQM3oECBoQAA..i&w=512&h=512&hcb=2&ved=2ahUKEwja3umLpOCQAxV9cGwGHQHKJXQQM3oECBoQAA",
+      },
+            {
+        name: "RViz",
+        image:
+          "https://raw.githubusercontent.com/ros-visualization/rviz/noetic-devel/images/splash.png",
+      },
       
     ],
   },
@@ -494,6 +504,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
