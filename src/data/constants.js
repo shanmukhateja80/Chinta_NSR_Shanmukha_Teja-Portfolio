@@ -29,7 +29,7 @@ export const skills = [
       },
       {
         name: "Gazebo",
-        image: "https://www.google.com/imgres?q=gazebo%20logo&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2F5%2F5e%2FGazebo_logo_without_text.svg&imgrefurl=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AGazebo_logo_without_text.svg&docid=MU7l-LvmVTU7ZM&tbnid=SsKwUcpot3aGjM&vet=12ahUKEwjw38jFo-CQAxVnXWwGHZ6HNH0QM3oECBUQAA..i&w=300&h=300&hcb=2&ved=2ahUKEwjw38jFo-CQAxVnXWwGHZ6HNH0QM3oECBUQAA",
+        image: "https://classic.gazebosim.org/assets/gazebo_vert-af0a0ada204b42b6daca54e98766979e45e011ea22347ffe90580458476d26d6.png",
       },
       {
         name: "Arduino",
@@ -504,6 +504,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
