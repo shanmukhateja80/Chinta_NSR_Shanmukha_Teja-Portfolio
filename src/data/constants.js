@@ -414,7 +414,7 @@ export const projects = [
     description:
       "Developed a remote-controlled rocket launcher system using the Blynk application, ESP8266 microcontroller, relay, and a high-voltage generator. The system ignites the rocket by generating a high-voltage spark when triggered through a smartphone app, enabling safe and convenient remote operation.",
     image:
-      "https://www.radioelec.com/images/imagecache/310x310/jpg/GENE_THT_1353347720.jpg",
+      "http://www.radioelec.com/images/imagecache/310x310/jpg/GENE_THT_1353347720.jpg",
     tags: ["IoT and Embedded Systems", "Firmware Development", "Programming", "Hardware and software Integration", "Mobile App Integration", "Problem-Solving"],
     category: "IoT and Software Development",
     github: "https://github.com/shanmukhateja80/IoT-Based-Fireworks-Launching-System",
@@ -428,7 +428,7 @@ export const projects = [
     description:
       "Developed an IoT-based attendance system using RFID tags, an RFID sensor, and an ESP8266 microcontroller. The system reads RFID tags to identify users and marks their attendance in an Excel sheet, which already contains pre-registered user names and numbers. Users receive a confirmation message indicating their attendance status, ensuring a seamless and automated tracking process.",
     image:
-      "https://www.researchgate.net/publication/359352861/figure/fig2/AS:1135663244156928@1647774625552/Website-for-IoT-based-RFID-Attendance-System.jpg",
+      "http://www.researchgate.net/profile/Editor-Ijmtst/publication/359352861/figure/fig2/AS:1135663244156928@1647774625552/Website-for-IoT-based-RFID-Attendance-System.jpg",
     tags: ["Cloud and IoT Integration", "ESP8266", "Automation and Control", "Problem-Solving"],
     category: "IoT and Software Development",
     github: "https://github.com/shanmukhateja80/IoT-based-RFID-attendance-system",
@@ -504,6 +504,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
