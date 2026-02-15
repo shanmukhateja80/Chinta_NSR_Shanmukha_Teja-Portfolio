@@ -515,7 +515,48 @@ export const projects = [
     github: "https://github.com/shanmukhateja80//ROS2-MobileRobot-Arm-Gazebo",
     webapp: "https://github.com/shanmukhateja80//ROS2-MobileRobot-Arm-Gazebo",
   },
-  
+{
+    id: 13,
+    title: "Lifecycle-Managed Action Server (Turtlesim)",
+    date: "Dec 2025 – Jan 2026",
+    description:
+      "Built a lifecycle-managed Action Server with custom MoveTurtle action to enforce safe activation, single-goal policies, and thread-safe execution using MultiThreadedExecutor and ReentrantCallbackGroup. Good proof of ROS2 architecture.",
+    image:
+      "https://docs.ros.org/en/foxy/_images/Action-SingleActionClient.gif",
+    tags: [
+      "ROS2",
+      "Robot Operating System (ROS)",
+      "ROS2 Actions",
+      "Autonomous Robotics",
+      "Python",
+      "Lifecycle Nodes",
+      
+    ],
+    category: "Robotics and Automation",
+    github: "https://github.com/shanmukhateja80/ros2-lifecycle-action-server",
+    webapp: "https://github.com/shanmukhateja80/ros2-lifecycle-action-server",
+  }, 
+{
+    id: 14,
+    title: "Action-Based TurtleBot3 Control (Gazebo)",
+    date: "Jan 2026 – Feb 2026",
+    description:
+      "Extended action-based control to TurtleBot3 (Waffle) in Gazebo: TwistStamped /cmd_vel control via custom action, goal validation, cancel support, and safe concurrency handling. Demonstrates simulation-ready robot control.",
+    image:
+      "https://www.generationrobots.com/21100-large_default/turtlebot3-waffle-pi.jpg",
+    tags: [
+      "ROS2",
+      "Robot Operating System (ROS)",
+      "ROS2 Actions",
+      "Autonomous Robotics",
+      "Gazebo",
+      "TurtleBot3",
+      
+    ],
+    category: "Robotics and Automation",
+    github: "https://github.com/shanmukhateja80/ros2-turtlebot3-action-control",
+    webapp: "https://github.com/shanmukhateja80/ros2-turtlebot3-action-control",
+  },    
 ];
 
 export const TimeLineData = [
@@ -525,6 +566,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
