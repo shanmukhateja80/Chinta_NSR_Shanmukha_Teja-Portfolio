@@ -317,47 +317,86 @@ export const education = [
 ];
 
 export const projects = [
-  {
-    id: 9,
-    title: "Automatic Sanitizer Dispenser",
-    date: "Mar 2020 - Jun 2020",
+{
+    id: 14,
+    title: "Action-Based TurtleBot3 Control (Gazebo)",
+    date: "Jan 2026 – Feb 2026",
     description:
-      "The Automatic Sanitizer Dispenser is a hands-free device designed for COVID-19 safety. It uses an ultrasonic sensor to detect the presence of a hand near the nozzle, activating a 24V pump and solenoid to spray sanitizer. Initially built with Arduino, the design was later transitioned to a custom PCB to reduce costs and improve efficiency.",
+      "Extended action-based control to TurtleBot3 (Waffle) in Gazebo: TwistStamped /cmd_vel control via custom action, goal validation, cancel support, and safe concurrency handling. Demonstrates simulation-ready robot control.",
     image:
-      "https://raw.githubusercontent.com/shanmukhateja80/Automatic-Sanitizer-Dispenser/refs/heads/main/Media/gifted_photos/gifted_photo2.jpg",
+      "https://www.generationrobots.com/21100-large_default/turtlebot3-waffle-pi.jpg",
     tags: [
-      "Arduino Programming",
-      "Sensor Integration",
-      "Custom PCB Design",
-      "Automation Systems",
-      "Circuit Design",
-      
-    ],
-    category: "Robotics and Automation",
-    github: "https://github.com/shanmukhateja80/Automatic-Sanitizer-Dispenser",
-    webapp: "https://github.com/shanmukhateja80/Automatic-Sanitizer-Dispenser",
-  },
-  {
-    id: 0,
-    title: "wheeled obstacle avoider robot",
-    date: "feb 2022 - Mar 2022",
-    description:
-      "The Wheeled Obstacle Avoider Robot is an autonomous robot designed to detect and avoid obstacles in its path. It is powered by an Arduino microcontroller and utilizes ultrasonic sensors for obstacle detection. The robot uses a combination of motors, sensors, and a motor driver to autonomously navigate its environment.",
-    image:
-      "https://raw.githubusercontent.com/shanmukhateja80/wheeled-obstacle-avoider-robot/refs/heads/main/wheeled%20obstacle%20avoider%20robot.jpg",
-    tags: [
-      "Arduino Programming",
-      "Sensor Integration",
-      "Motor Control",
+      "ROS2",
+      "Robot Operating System (ROS)",
+      "ROS2 Actions",
       "Autonomous Robotics",
-      "Circuit Design",
-      "Problem Solving",
+      "Gazebo",
+      "TurtleBot3",
       
     ],
     category: "Robotics and Automation",
-    github: "https://github.com/shanmukhateja80/wheeled-obstacle-avoider-robot",
-    webapp: "https://github.com/shanmukhateja80/wheeled-obstacle-avoider-robot",
+    github: "https://github.com/shanmukhateja80/ros2-turtlebot3-action-control",
+    webapp: "https://github.com/shanmukhateja80/ros2-turtlebot3-action-control",
   },
+{
+    id: 15,
+    title: "ROS2 Mobile Robot with 2-DOF Arm (URDF | Gazebo | RViz)",
+    date: "Nov 2025 – Dec 2025",
+    description:
+      "Designed and simulated a custom differential-drive mobile robot with a 2-DOF manipulator using ROS2 Jazzy. Implemented URDF/Xacro modeling, Gazebo plugins & joint controllers, TF tree management, and RViz visualization",
+    image:
+      "https://raw.githubusercontent.com/shanmukhateja80/ROS2-MobileRobot-Arm-Gazebo/refs/heads/main/image.png",
+    tags: [
+      "ROS2",
+      "URDF/Xacro",
+      "Gazebo",
+      "Autonomous Robotics",
+      "TF2",
+      "Robot Simulation",
+      
+    ],
+    category: "Robotics and Automation",
+    github: "https://github.com/shanmukhateja80//ROS2-MobileRobot-Arm-Gazebo",
+    webapp: "https://github.com/shanmukhateja80//ROS2-MobileRobot-Arm-Gazebo",
+  },  
+{
+    id: 13,
+    title: "Lifecycle-Managed Action Server (Turtlesim)",
+    date: "Dec 2025 – Jan 2026",
+    description:
+      "Built a lifecycle-managed Action Server with custom MoveTurtle action to enforce safe activation, single-goal policies, and thread-safe execution using MultiThreadedExecutor and ReentrantCallbackGroup. Good proof of ROS2 architecture.",
+    image:
+      "https://docs.ros.org/en/foxy/_images/Action-SingleActionClient.gif",
+    tags: [
+      "ROS2",
+      "Robot Operating System (ROS)",
+      "ROS2 Actions",
+      "Autonomous Robotics",
+      "Python",
+      "Lifecycle Nodes",
+      
+    ],
+    category: "Robotics and Automation",
+    github: "https://github.com/shanmukhateja80/ros2-lifecycle-action-server",
+    webapp: "https://github.com/shanmukhateja80/ros2-lifecycle-action-server",
+  }, 
+{
+  id: 11,
+  title: "ROS 2 Project: Catch Them All with Turtlesim",
+  date: "Aug 2025 - Sep 2025",
+  description:
+    "This project extends the standard Turtlesim simulator into a fun game where turtle1 autonomously chases and catches other turtles spawning randomly in the environment. Built using ROS 2 and Python, it demonstrates robotics concepts like node communication, custom services, and autonomous control.",
+  image:
+    "https://raw.githubusercontent.com/shanmukhateja80/catch-the-turtle-ros2/refs/heads/main/Screenshot%202025-09-07%20173455.png",
+  tags: [
+    "ROS 2",
+    "Python Programming",
+    "Autonomous Robotics",
+    "Simulation and Control"],
+  category: "Robotics and Automation",
+  github: "https://github.com/shanmukhateja80/catch-the-turtle-ros2",
+
+},
   {
     id: 10,
     title: "Design and Development of Co-bot",
@@ -387,6 +426,70 @@ export const projects = [
         linkedin: "https://www.linkedin.com/in/tirumala-priyanka-139aa1251/",
       },
     ],
+  }, 
+{
+  id: 12,
+  title: "Advanced Articulating Laparoscopic Needle Holder & Grasper",
+  date: "Apr 2025 - Present",
+  description:
+    "Leading the design and prototyping of a cost-effective, detachable-jaw laparoscopic tool. The device features an articulating front jaw capable of 360° rotation and 90° bending on both sides, with easy-to-sanitize detachable components. Currently, the 10mm version is successful, and efforts are ongoing to develop a 6mm version. Future plans include a motorized version for enhanced surgical precision.",
+  image: "https://raw.githubusercontent.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper/refs/heads/main/WhatsApp%20Image%202025-05-19%20at%2017.04.02_47e9b4de.jpg",
+  tags: [
+    "Mechanical Design",
+    "CAD Modeling (CATIA V5)",
+    "Finite Element Analysis (ANSYS)",
+    "Prototyping & 3D Printing",
+    "Team Collaboration",
+    "Design Optimization",
+    "Medical Device Innovation"],
+  category: "Mechanical Design and Others",
+  github: "https://github.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper",  
+},  
+{
+    id: 4,
+    title: "Kitchen Robot Frame Design and Analysis",
+    date: "Mar 2024 - Jun 2024",
+    description:
+      "Designed the mechanical frame for an automated kitchen robot during my internship at DreamBot. The project involved creating a sturdy, efficient structure capable of supporting various robotic components. I conducted structural analysis using tools like CATIA V5 and ANSYS to ensure durability and functionality, optimizing the design for seamless integration with the robot's automation tasks.",
+    image:
+      "https://raw.githubusercontent.com/shanmukhateja80/Kitchen-Robot-Frame-Design-and-Analysis/refs/heads/main/frame%20img%20.png",
+    tags: ["Mechanical Design", "CATIA V5", " ANSYS", "Prototyping and Testing"],
+    category: "Mechanical Design and Others",
+    github: "https://github.com/shanmukhateja80/Kitchen-Robot-Frame-Design-and-Analysis",
+    
+  },  
+{
+    id: 10,
+    title: "Robotic Arm using Servo Motors",
+    date: "Jun 2023 - Jul 2023",
+    description:
+      "Developed a robotic arm controlled by servo motors, with each joint's movement regulated through potentiometers. The system allows precise control of the arm’s position, enabling it to perform predefined tasks through pre-programmed sequences. The arm's movements are adjustable in real-time by varying the potentiometer values, providing flexibility and accuracy in automation and task execution.",
+    image:
+      "https://i0.wp.com/dronebotworkshop.com/wp-content/uploads/2018/06/robot-arm-with-controller.jpg?resize=750%2C500&ssl=1",
+    tags: ["Robotics and Actuation", "Control Systems", "Problem-Solving"],
+    category: "Robotics and Automation",
+    github: "https://github.com/shanmukhateja80/Robotic-Arm-using-Servo-Motors",
+  },  
+{
+    id: 0,
+    title: "wheeled obstacle avoider robot",
+    date: "feb 2022 - Mar 2022",
+    description:
+      "The Wheeled Obstacle Avoider Robot is an autonomous robot designed to detect and avoid obstacles in its path. It is powered by an Arduino microcontroller and utilizes ultrasonic sensors for obstacle detection. The robot uses a combination of motors, sensors, and a motor driver to autonomously navigate its environment.",
+    image:
+      "https://raw.githubusercontent.com/shanmukhateja80/wheeled-obstacle-avoider-robot/refs/heads/main/wheeled%20obstacle%20avoider%20robot.jpg",
+    tags: [
+      "Arduino Programming",
+      "Sensor Integration",
+      "Motor Control",
+      "Autonomous Robotics",
+      "Circuit Design",
+      "Problem Solving",
+      
+    ],
+    category: "Robotics and Automation",
+    github: "https://github.com/shanmukhateja80/wheeled-obstacle-avoider-robot",
+    webapp: "https://github.com/shanmukhateja80/wheeled-obstacle-avoider-robot",
   },
   {
     id: 1,
@@ -406,8 +509,21 @@ export const projects = [
     ],
     category: "IoT and Software Development",
     github: "https://github.com/shanmukhateja80/IoT-Plant-Monitoring-System",
-  },
-  {
+  },  
+ {
+    id: 3,
+    title: "IoT-based RFID attendance system",
+    date: "Feb 2023 - Apr 2023",
+    description:
+      "Developed an IoT-based attendance system using RFID tags, an RFID sensor, and an ESP8266 microcontroller. The system reads RFID tags to identify users and marks their attendance in an Excel sheet, which already contains pre-registered user names and numbers. Users receive a confirmation message indicating their attendance status, ensuring a seamless and automated tracking process.",
+    image:
+      "http://www.researchgate.net/profile/Editor-Ijmtst/publication/359352861/figure/fig2/AS:1135663244156928@1647774625552/Website-for-IoT-based-RFID-Attendance-System.jpg",
+    tags: ["Cloud and IoT Integration", "ESP8266", "Automation and Control", "Problem-Solving"],
+    category: "IoT and Software Development",
+    github: "https://github.com/shanmukhateja80/IoT-based-RFID-attendance-system",
+   
+  },  
+{
     id: 2,
     title: "IoT Based Fireworks Launching System",
     date: "Sep 2022 - Oct 2022",
@@ -421,144 +537,27 @@ export const projects = [
     
       
   },
-  {
-    id: 3,
-    title: "IoT-based RFID attendance system",
-    date: "Feb 2023 - Apr 2023",
-    description:
-      "Developed an IoT-based attendance system using RFID tags, an RFID sensor, and an ESP8266 microcontroller. The system reads RFID tags to identify users and marks their attendance in an Excel sheet, which already contains pre-registered user names and numbers. Users receive a confirmation message indicating their attendance status, ensuring a seamless and automated tracking process.",
-    image:
-      "http://www.researchgate.net/profile/Editor-Ijmtst/publication/359352861/figure/fig2/AS:1135663244156928@1647774625552/Website-for-IoT-based-RFID-Attendance-System.jpg",
-    tags: ["Cloud and IoT Integration", "ESP8266", "Automation and Control", "Problem-Solving"],
-    category: "IoT and Software Development",
-    github: "https://github.com/shanmukhateja80/IoT-based-RFID-attendance-system",
-   
-  },
-  {
-    id: 10,
-    title: "Robotic Arm using Servo Motors",
-    date: "Jun 2023 - Jul 2023",
-    description:
-      "Developed a robotic arm controlled by servo motors, with each joint's movement regulated through potentiometers. The system allows precise control of the arm’s position, enabling it to perform predefined tasks through pre-programmed sequences. The arm's movements are adjustable in real-time by varying the potentiometer values, providing flexibility and accuracy in automation and task execution.",
-    image:
-      "https://i0.wp.com/dronebotworkshop.com/wp-content/uploads/2018/06/robot-arm-with-controller.jpg?resize=750%2C500&ssl=1",
-    tags: ["Robotics and Actuation", "Control Systems", "Problem-Solving"],
-    category: "Robotics and Automation",
-    github: "https://github.com/shanmukhateja80/Robotic-Arm-using-Servo-Motors",
-  },
-  {
-    id: 4,
-    title: "Kitchen Robot Frame Design and Analysis",
-    date: "Mar 2024 - Jun 2024",
-    description:
-      "Designed the mechanical frame for an automated kitchen robot during my internship at DreamBot. The project involved creating a sturdy, efficient structure capable of supporting various robotic components. I conducted structural analysis using tools like CATIA V5 and ANSYS to ensure durability and functionality, optimizing the design for seamless integration with the robot's automation tasks.",
-    image:
-      "https://raw.githubusercontent.com/shanmukhateja80/Kitchen-Robot-Frame-Design-and-Analysis/refs/heads/main/frame%20img%20.png",
-    tags: ["Mechanical Design", "CATIA V5", " ANSYS", "Prototyping and Testing"],
-    category: "Mechanical Design and Others",
-    github: "https://github.com/shanmukhateja80/Kitchen-Robot-Frame-Design-and-Analysis",
-    
-  },
-  {
-  id: 11,
-  title: "ROS 2 Project: Catch Them All with Turtlesim",
-  date: "Aug 2025 - Sep 2025",
-  description:
-    "This project extends the standard Turtlesim simulator into a fun game where turtle1 autonomously chases and catches other turtles spawning randomly in the environment. Built using ROS 2 and Python, it demonstrates robotics concepts like node communication, custom services, and autonomous control.",
-  image:
-    "https://raw.githubusercontent.com/shanmukhateja80/catch-the-turtle-ros2/refs/heads/main/Screenshot%202025-09-07%20173455.png",
-  tags: [
-    "ROS 2",
-    "Python Programming",
-    "Autonomous Robotics",
-    "Simulation and Control"],
-  category: "Robotics and Automation",
-  github: "https://github.com/shanmukhateja80/catch-the-turtle-ros2",
-
-},
 {
-  id: 12,
-  title: "Advanced Articulating Laparoscopic Needle Holder & Grasper",
-  date: "Apr 2025 - Present",
-  description:
-    "Leading the design and prototyping of a cost-effective, detachable-jaw laparoscopic tool. The device features an articulating front jaw capable of 360° rotation and 90° bending on both sides, with easy-to-sanitize detachable components. Currently, the 10mm version is successful, and efforts are ongoing to develop a 6mm version. Future plans include a motorized version for enhanced surgical precision.",
-  image: "https://raw.githubusercontent.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper/refs/heads/main/WhatsApp%20Image%202025-05-19%20at%2017.04.02_47e9b4de.jpg",
-  tags: [
-    "Mechanical Design",
-    "CAD Modeling (CATIA V5)",
-    "Finite Element Analysis (ANSYS)",
-    "Prototyping & 3D Printing",
-    "Team Collaboration",
-    "Design Optimization",
-    "Medical Device Innovation"],
-  category: "Mechanical Design and Others",
-  github: "https://github.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper",  
-},
-{
-    id: 15,
-    title: "ROS2 Mobile Robot with 2-DOF Arm (URDF | Gazebo | RViz)",
-    date: "Nov 2025 – Dec 2025",
+    id: 9,
+    title: "Automatic Sanitizer Dispenser",
+    date: "Mar 2020 - Jun 2020",
     description:
-      "Designed and simulated a custom differential-drive mobile robot with a 2-DOF manipulator using ROS2 Jazzy. Implemented URDF/Xacro modeling, Gazebo plugins & joint controllers, TF tree management, and RViz visualization",
+      "The Automatic Sanitizer Dispenser is a hands-free device designed for COVID-19 safety. It uses an ultrasonic sensor to detect the presence of a hand near the nozzle, activating a 24V pump and solenoid to spray sanitizer. Initially built with Arduino, the design was later transitioned to a custom PCB to reduce costs and improve efficiency.",
     image:
-      "https://raw.githubusercontent.com/shanmukhateja80/ROS2-MobileRobot-Arm-Gazebo/refs/heads/main/image.png",
+      "https://raw.githubusercontent.com/shanmukhateja80/Automatic-Sanitizer-Dispenser/refs/heads/main/Media/gifted_photos/gifted_photo2.jpg",
     tags: [
-      "ROS2",
-      "URDF/Xacro",
-      "Gazebo",
-      "Autonomous Robotics",
-      "TF2",
-      "Robot Simulation",
+      "Arduino Programming",
+      "Sensor Integration",
+      "Custom PCB Design",
+      "Automation Systems",
+      "Circuit Design",
       
     ],
     category: "Robotics and Automation",
-    github: "https://github.com/shanmukhateja80//ROS2-MobileRobot-Arm-Gazebo",
-    webapp: "https://github.com/shanmukhateja80//ROS2-MobileRobot-Arm-Gazebo",
-  },
-{
-    id: 13,
-    title: "Lifecycle-Managed Action Server (Turtlesim)",
-    date: "Dec 2025 – Jan 2026",
-    description:
-      "Built a lifecycle-managed Action Server with custom MoveTurtle action to enforce safe activation, single-goal policies, and thread-safe execution using MultiThreadedExecutor and ReentrantCallbackGroup. Good proof of ROS2 architecture.",
-    image:
-      "https://docs.ros.org/en/foxy/_images/Action-SingleActionClient.gif",
-    tags: [
-      "ROS2",
-      "Robot Operating System (ROS)",
-      "ROS2 Actions",
-      "Autonomous Robotics",
-      "Python",
-      "Lifecycle Nodes",
-      
-    ],
-    category: "Robotics and Automation",
-    github: "https://github.com/shanmukhateja80/ros2-lifecycle-action-server",
-    webapp: "https://github.com/shanmukhateja80/ros2-lifecycle-action-server",
-  }, 
-{
-    id: 14,
-    title: "Action-Based TurtleBot3 Control (Gazebo)",
-    date: "Jan 2026 – Feb 2026",
-    description:
-      "Extended action-based control to TurtleBot3 (Waffle) in Gazebo: TwistStamped /cmd_vel control via custom action, goal validation, cancel support, and safe concurrency handling. Demonstrates simulation-ready robot control.",
-    image:
-      "https://www.generationrobots.com/21100-large_default/turtlebot3-waffle-pi.jpg",
-    tags: [
-      "ROS2",
-      "Robot Operating System (ROS)",
-      "ROS2 Actions",
-      "Autonomous Robotics",
-      "Gazebo",
-      "TurtleBot3",
-      
-    ],
-    category: "Robotics and Automation",
-    github: "https://github.com/shanmukhateja80/ros2-turtlebot3-action-control",
-    webapp: "https://github.com/shanmukhateja80/ros2-turtlebot3-action-control",
+    github: "https://github.com/shanmukhateja80/Automatic-Sanitizer-Dispenser",
+    webapp: "https://github.com/shanmukhateja80/Automatic-Sanitizer-Dispenser",
   },    
 ];
-
 export const TimeLineData = [
   { year: 2017, text: "Embarked on my journey into technology and innovation" },
   { year: 2018, text: "Explored the world of electronics by learning Arduino" },
@@ -566,6 +565,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
