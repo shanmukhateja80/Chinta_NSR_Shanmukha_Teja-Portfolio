@@ -414,7 +414,7 @@ export const projects = [
     description:
       "Developed a remote-controlled rocket launcher system using the Blynk application, ESP8266 microcontroller, relay, and a high-voltage generator. The system ignites the rocket by generating a high-voltage spark when triggered through a smartphone app, enabling safe and convenient remote operation.",
     image:
-      "http://www.radioelec.com/images/imagecache/310x310/jpg/GENE_THT_1353347720.jpg",
+      "https://raw.githubusercontent.com/shanmukhateja80/IoT-Based-Fireworks-Launching-System/refs/heads/main/ezgif-3977156f2e797d3b.gif",
     tags: ["IoT and Embedded Systems", "Firmware Development", "Programming", "Hardware and software Integration", "Mobile App Integration", "Problem-Solving"],
     category: "IoT and Software Development",
     github: "https://github.com/shanmukhateja80/IoT-Based-Fireworks-Launching-System",
@@ -566,6 +566,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
