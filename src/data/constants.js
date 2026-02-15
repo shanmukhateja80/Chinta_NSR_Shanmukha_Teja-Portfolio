@@ -495,13 +495,13 @@ export const projects = [
   github: "https://github.com/shanmukhateja80/Advanced-Articulating-Laparoscopic-Needle-Holder-Grasper",  
 },
 {
-    id: 12,
+    id: 15,
     title: "ROS2 Mobile Robot with 2-DOF Arm (URDF | Gazebo | RViz)",
     date: "Nov 2025 – Dec 2025",
     description:
       "Designed and simulated a custom differential-drive mobile robot with a 2-DOF manipulator using ROS2 Jazzy. Implemented URDF/Xacro modeling, Gazebo plugins & joint controllers, TF tree management, and RViz visualization",
     image:
-      "https://drive.google.com/file/d/1PNvy2AOt3n5oTLZiutU5gRnkeQsyAcyE/view?usp=sharing",
+      "https://raw.githubusercontent.com/shanmukhateja80/ROS2-MobileRobot-Arm-Gazebo/refs/heads/main/image.png",
     tags: [
       "ROS2",
       "URDF/Xacro",
@@ -566,6 +566,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
