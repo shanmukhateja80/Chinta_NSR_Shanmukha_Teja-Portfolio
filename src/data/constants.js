@@ -39,7 +39,7 @@ export const skills = [
       {
         name: "Nav2",
         image:
-          "https://raw.githubusercontent.com/ros-planning/navigation2/jazzy/doc/nav2_logo.png",
+          "https://us1.discourse-cdn.com/flex022/uploads/ros/original/2X/6/6c818c96ecae6cc7d67081bb7748bc081224703c.png",
       },
       {
         name: "RoboDK",
@@ -565,6 +565,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
