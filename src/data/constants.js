@@ -111,11 +111,7 @@ export const skills = [
         image:
           "https://i.pinimg.com/736x/51/45/df/5145df1033fa60f13b3b7125d2b69554.jpg",
       },
-      {
-        name: "MELFA",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Mitsubishi_logo.svg/2375px-Mitsubishi_logo.svg.png",
-      },
+
        {
         name: "LINUX",
         image:
@@ -150,6 +146,11 @@ export const skills = [
         name: "VS Code",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+      {
+        name: "Ubuntu",
+        image:
+          "https://store-images.s-microsoft.com/image/apps.60707.19705024-92b4-4d83-8576-4480798396c4.e55f9a5c-8848-4ec4-9d81-05d310c133ec.36a9801b-3c53-44c7-b9a0-a9c760d25a16",
       },
     ],
   },
@@ -565,6 +566,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
