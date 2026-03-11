@@ -318,6 +318,49 @@ export const education = [
 ];
 
 export const projects = [
+  {
+  id: 16,
+  title: "Autonomous Maze Navigation using ROS2 Nav2 and SLAM",
+  date: "Feb 2026 - Mar 2026",
+  description:
+    "Autonomous mobile robot navigation in a custom Gazebo maze using the ROS2 Navigation2 (Nav2) stack and SLAM-based mapping. I created the maze world, generated maps using SLAM Toolbox, and used Nav2 global & local planners to plan and execute safe paths while avoiding obstacles. The project includes launch files, saved maps, Nav2 parameter configs, and a demo showing Gazebo + terminal + RViz running together.",
+  image:
+    "https://raw.githubusercontent.com/shanmukhateja80/ros2-nav2-maze-navigation/refs/heads/main/images/gazebo_maze.png",
+  tags: [
+    "ROS2",
+    "Navigation2",
+    "SLAM",
+    "Gazebo",
+    "RViz",
+    "TurtleBot3",
+    "RobotSimulation",
+    "Python"
+  ],
+  category: "Robotics and Automation",
+  github: "https://github.com/shanmukhateja80/ros2-nav2-maze-navigation",
+
+},
+{
+  id: 17,
+  title: "Autonomous Navigation using ROS2 Nav2 Python Commander API",
+  date: "Mar 2026",
+  description:
+    "Programmatic autonomous navigation using the Nav2 Python Simple Commander API. Implemented a Python controller that sets initial pose, sends waypoint sequences, monitors navigation feedback and handles completion. Demonstrates how to run mission-style navigation (waypoint lists) without manual RViz interaction — useful for warehouse, delivery and service robot workflows. Repo contains the navigation script, recommended launch commands and usage notes.",
+  image:
+    "https://user-images.githubusercontent.com/86218311/131246478-46ef914e-8886-4fd1-995b-e45561897446.gif",
+  tags: [
+    "ROS2",
+    "Nav2",
+    "Python",
+    "AutonomousNavigation",
+    "Gazebo",
+    "RViz",
+    "RobotSoftware"
+  ],
+  category: "Robotics and Automation",
+  github: "https://github.com/shanmukhateja80/ros2-nav2-python-commander",
+
+ },
 {
     id: 14,
     title: "Action-Based TurtleBot3 Control (Gazebo)",
@@ -566,6 +609,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
