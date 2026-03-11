@@ -129,7 +129,7 @@ export const skills = [
       {
         name: "Microsoft Office 365",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Microsoft_Office_logo_%282013%E2%80%932019%29.svg/648px-Microsoft_Office_logo_%282013%E2%80%932019%29.svg.png",
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3KwXA70LyegpQCa9DucgTFB25WkQYYaI3vg&s",
       },
       {
         name: "GitHub",
@@ -565,6 +565,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
