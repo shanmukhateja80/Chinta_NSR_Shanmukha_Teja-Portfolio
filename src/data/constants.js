@@ -37,9 +37,9 @@ export const skills = [
           "https://w7.pngwing.com/pngs/174/620/png-transparent-arduino-hd-logo.png",
       },
       {
-        name: "MATLAB",
+        name: "Nav2",
         image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Matlab_Logo.png/800px-Matlab_Logo.png",
+          "https://raw.githubusercontent.com/ros-planning/navigation2/jazzy/doc/nav2_logo.png",
       },
       {
         name: "RoboDK",
@@ -565,6 +565,7 @@ export const TimeLineData = [
   { year: 2020, text: "Dived into the field of robotics, combining hardware and software" },
   { year: 2021, text: "Emerged as a Robotics Engineer, integrating knowledge into real-world applications" },
 ];
+
 
 
 
