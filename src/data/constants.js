@@ -325,7 +325,7 @@ export const projects = [
   description:
     "Autonomous mobile robot navigation in a custom Gazebo maze using the ROS2 Navigation2 (Nav2) stack and SLAM-based mapping. I created the maze world, generated maps using SLAM Toolbox, and used Nav2 global & local planners to plan and execute safe paths while avoiding obstacles. The project includes launch files, saved maps, Nav2 parameter configs, and a demo showing Gazebo + terminal + RViz running together.",
   image:
-    "https://raw.githubusercontent.com/shanmukhateja80/ros2-nav2-maze-navigation/refs/heads/main/images/gazebo_maze.png",
+    "https://drive.google.com/file/d/1phgiTV0A6ORne_4Ul8jkd0Bdm6-zrOmB/view?usp=sharing",
   tags: [
     "ROS2",
     "Navigation2",
